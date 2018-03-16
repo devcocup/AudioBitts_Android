@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">Audiobitts</string>
+    <string name="app_name">AudioBitts</string>
+    <string name="parse_server_url">http://audiobits.us-east-1.elasticbeanstalk.com/parse</string>
+    <string name="parse_app_id">tKgmfirf66vcdEO5fl7fkS1i5OS5R4mPL5O1fhmq</string>
+
+    <!-- Menu -->
+    <string name="open_menu">Open Menu</string>
+    <string name="close_menu">Close Menu</string>
+    <string name="menu_profile">Hi Guest!</string>
+    <string name="menu_explore">Explore</string>
+    <string name="menu_my_bitts">My Bitts</string>
+    <string name="menu_notifications">Notifications</string>
+    <string name="menu_rate_us">Rate Us</string>
+    <string name="menu_tell_a_friend">Tell a friend</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_sign_up">Signup</string>
 </resources>
