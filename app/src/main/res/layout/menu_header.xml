@@ -3,14 +3,15 @@
     android:layout_width="match_parent"
     android:layout_height="150dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="horizontal"
-    android:paddingLeft="30dp">
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:paddingBottom="15dp">
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/profileImageView"
         android:layout_width="65dp"
         android:layout_height="65dp"
-        android:src="@drawable/profile_palceholder"
-        android:layout_gravity="center_vertical"
+        android:src="@drawable/profile_placeholder"
+        android:layout_gravity="center_horizontal"
         app:civ_border_width="3dp"
         app:civ_border_color="@color/main_color"/>
     <TextView
@@ -19,6 +20,7 @@
         android:layout_height="wrap_content"
         android:textColor="@color/white"
         android:textSize="20sp"
-        android:layout_gravity="center_vertical"
-        android:layout_marginLeft="20dp"/>
+        android:text="@string/hi_guest"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"/>
 </LinearLayout>

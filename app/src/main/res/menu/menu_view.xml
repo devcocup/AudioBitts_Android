@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_explore_fragment"
+            android:icon="@drawable/explore"
+            android:title="@string/menu_explore"/>
+
+        <item
+            android:id="@+id/menu_my_bitts_fragment"
+            android:icon="@drawable/my_bitts"
+            android:title="@string/menu_my_bitts"/>
+
+        <item
+            android:id="@+id/menu_notifications_fragment"
+            android:icon="@drawable/notifications"
+            android:title="@string/menu_notification"/>
+
+        <item
+            android:id="@+id/menu_rate_us_fragment"
+            android:icon="@drawable/rate_us"
+            android:title="@string/menu_rate_us"/>
+
+        <item
+            android:id="@+id/menu_tell_a_friend_fragment"
+            android:icon="@drawable/tell_a_friend"
+            android:title="@string/menu_tell_a_friend" />
+
+        <item
+            android:id="@+id/menu_settings_fragment"
+            android:icon="@drawable/settings"
+            android:title="@string/menu_settings"/>
+
+        <item
+            android:id="@+id/menu_signup_activity"
+            android:icon="@drawable/sign_up"
+            android:title="@string/menu_signup"/>
+
+    </group>
+</menu>

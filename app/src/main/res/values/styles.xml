@@ -1,7 +1,7 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
@@ -13,15 +13,27 @@
         <item name="drawerArrowStyle">@style/MaterialDrawer.DrawerArrowStyle</item>
     </style>
 
-    <!-- Slash screen theme. -->
-    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
-        <item name="android:windowBackground">@drawable/splash_screen_image</item>
+    <!-- Splash Theme -->
+    <style name="SplashThem" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
     </style>
 
-    <!-- Menu theme -->
+    <!-- Menu Hamburger  Theme -->
     <style name="MaterialDrawer.DrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
         <item name="spinBars">true</item>
         <item name="color">@color/white</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <!-- Menu Item Theme-->
+    <style name="MenuItemTheme">
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <!-- ToolBar Title Theme -->
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/white</item>
     </style>
 
 </resources>
